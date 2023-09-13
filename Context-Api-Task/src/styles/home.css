@@ -1,0 +1,76 @@
+/* Your CSS file, e.g., products.css */
+
+/* Style the product card container */
+.product-list {
+  margin-top: 20px;
+  display: flex;
+  flex-wrap: wrap;
+}
+.product-card {
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  width: 20%;
+  margin: 10px;
+  padding: 20px;
+  background-color: #ecdbdb;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+}
+
+/* Hover effect for product cards */
+.product-card:hover {
+  transform: scale(1.03);
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.2);
+}
+
+/* Style the product title */
+.product-title {
+  font-size: 18px;
+  font-weight: bold;
+  margin: 10px 0;
+}
+
+/* Style the product description */
+.product-description {
+  font-size: 14px;
+  margin-bottom: 10px;
+}
+
+/* Style the product price */
+.product-price {
+  font-size: 16px;
+  color: #007bff; /* Blue color for price */
+}
+
+/* Style the discount percentage */
+.discount-percentage {
+  font-size: 14px;
+  color: #e74c3c; /* Red color for discount percentage */
+}
+
+/* Style the product thumbnail image */
+.product-thumbnail {
+  max-width: 100%;
+  height: auto;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  margin-bottom: 10px;
+}
+
+/* Style the product button */
+.product-button {
+  background-color: #007bff; /* Blue color for the button */
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  margin-top: 20px;
+  transition: background-color 0.3s ease-in-out;
+}
+
+/* Hover effect for the button */
+.product-button:hover {
+  background-color: #0056b3; /* Darker blue on hover */
+}
